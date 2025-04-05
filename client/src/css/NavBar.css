@@ -1,0 +1,72 @@
+/* 🟢 Toggle Button (☰) */
+.toggle-button {
+  position: fixed;
+  top: 15px;
+  left: 15px;
+  font-size: 2rem;
+  background: transparent;
+  border: none;
+  color: white;
+  cursor: pointer;
+  z-index: 1100;
+}
+
+/* 🟢 Sidebar (Full-screen overlay) */
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: -100%;
+  width: 100vw;
+  height: 100vh;
+  background-color: black; /* Dark overlay */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+  transition: left 0.5s ease-in-out;
+}
+
+/* 🟢 Close Button (✖) */
+.close-button {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  font-size: 2rem;
+  background: transparent;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+/* 🟢 Navigation Links */
+.nav-links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem; 
+  fontFamily: 'Winky Sans', sans-serif;
+}
+
+.nav-item {
+  font-size: 2rem;
+  color: white;
+  text-decoration: none; 
+  font-family: 'Winky Sans', sans-serif;
+  transition: color 0.3s ease-in-out;
+}
+
+.nav-item:hover {
+  color: #f1c40f; /* Highlight color */
+}
+
+/* 🟢 Overlay Effect */
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 900;
+}
