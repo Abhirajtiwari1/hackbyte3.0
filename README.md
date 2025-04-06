@@ -1,4 +1,4 @@
-# Code 1v1 Tournament Website Manual
+# Codium
 
 Welcome to our Code 1v1 Tournament Website! Below is a comprehensive manual to help you understand our platform and the game in detail.
 
